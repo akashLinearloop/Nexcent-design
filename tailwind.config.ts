@@ -87,7 +87,8 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       boxShadow: {
-        "shadow1": "0px 2px 4px 0px #ABBED133",
+        shadow1: "0px 2px 4px 0px #ABBED133",
+        shadow2: "0px 8px 16px 0px #ABBED166",
       },
     },
   },

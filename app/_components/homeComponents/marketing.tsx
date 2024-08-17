@@ -24,7 +24,7 @@ const Marketing = () => {
             height={286}
             alt="image1"
           />
-          <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md">
+          <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md shadow-shadow2">
             <p className="text-xl font-semibold text-natural-grey">
               Creating Streamlined Safeguarding Processes with OneRen
             </p>
@@ -41,7 +41,7 @@ const Marketing = () => {
             height={286}
             alt="image1"
           />
-          <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md">
+          <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md shadow-shadow2">
             <p className="text-xl font-semibold text-natural-grey">
               What are your safeguarding responsibilities and how can you manage
               them?
@@ -59,7 +59,7 @@ const Marketing = () => {
             height={286}
             alt="image1"
           />
-          <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md">
+          <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md shadow-shadow2">
             <p className="text-xl font-semibold text-natural-grey">
               Revamping the Membership Model with Triathlon Australia
             </p>
