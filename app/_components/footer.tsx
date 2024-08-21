@@ -9,7 +9,7 @@ import YoutubeIcon from "./theme/icons/youtubeIcon";
 const Footer = () => {
   return (
     <div className="bg-natural-black py-16">
-      <div className="container flex">
+      <div className="container flex flex-wrap lg:flex-nowrap gap-5">
         <div className="w-2/5">
           <div className="flex gap-2 items-center">
             <Image
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-3/5 flex gap-24">
+        <div className="w-auto xl:w-3/5 flex flex-wrap lg:flex-nowrap gap-24">
           <div>
             <h3 className="text-white text-xl font-semibold">Company</h3>
             <div className="text-natural-Silver text-sm mt-6 flex flex-col gap-y-3">

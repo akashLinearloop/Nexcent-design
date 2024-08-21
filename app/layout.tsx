@@ -23,10 +23,10 @@ export default function RootLayout({
         <link rel="icon" href="/images/logo.svg" sizes="any" />
       </head>
       <body className={inter.className}>
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Header />
         </div>
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <MobileHeader />
         </div>
         {children}

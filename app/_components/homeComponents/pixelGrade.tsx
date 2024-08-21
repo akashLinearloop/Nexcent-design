@@ -5,8 +5,8 @@ import React from "react";
 const PixelGrade = () => {
   return (
     <div className="container">
-      <div className="flex items-center">
-        <div className="w-2/5">
+      <div className="flex flex-wrap md:flex-nowrap gap-3 items-center">
+        <div className="w-full md:w-2/5">
           <Image
             src="/images/pixelgrade.png"
             width={440}
@@ -14,7 +14,7 @@ const PixelGrade = () => {
             alt="pixelgrade"
           />
         </div>
-        <div className="w-3/5">
+        <div className="w-full md:w-3/5">
           <h3 className="text-4xl font-semibold text-natural-D_Grey">
             The unseen of spending three years at Pixelgrade
           </h3>

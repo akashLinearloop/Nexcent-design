@@ -9,20 +9,21 @@ const Marketing = () => {
         <h2 className="text-4xl font-semibold text-natural-D_Grey">
           Caring is the new marketing
         </h2>
-        <p className="text-base text-natural-grey mt-2 w-[628px] mx-auto">
+        <p className="text-base text-natural-grey mt-2 w-auto lg:w-[628px] mx-auto">
           The Nexcent blog is the best place to read about the latest membership
           insights, trends and more. See who joining the community, read about
           how our community are increasing their membership income and lot
           more.​
         </p>
       </div>
-      <div className="flex justify-between mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 md:gap-10 md:gap-y-24 xl:gap-0 mt-4">
         <div className="relative">
           <Image
             src="/images/image 18.png"
             width={368}
             height={286}
             alt="image1"
+            className="w-full"
           />
           <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md shadow-shadow2">
             <p className="text-xl font-semibold text-natural-grey">
@@ -40,6 +41,7 @@ const Marketing = () => {
             width={368}
             height={286}
             alt="image1"
+            className="w-full"
           />
           <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md shadow-shadow2">
             <p className="text-xl font-semibold text-natural-grey">
@@ -58,6 +60,7 @@ const Marketing = () => {
             width={368}
             height={286}
             alt="image1"
+            className="w-full"
           />
           <div className="bg-natural-Silver p-4 absolute text-center mx-6 -bottom-16 rounded-md shadow-shadow2">
             <p className="text-xl font-semibold text-natural-grey">

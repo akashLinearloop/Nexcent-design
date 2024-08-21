@@ -4,8 +4,8 @@ import React from "react";
 const HelpingBusiness = () => {
   return (
     <div className="bg-natural-Silver my-12">
-      <div className="container flex items-center">
-        <div className="w-1/2">
+      <div className="container flex flex-wrap items-center">
+        <div className="w-full md:w-1/2 pt-8 md:pt-0">
           <h2 className="text-4xl font-semibold text-natural-D_Grey">
             Helping a local <br />
             <span className="text-Primary">business reinvent itself</span>
@@ -14,7 +14,7 @@ const HelpingBusiness = () => {
             We reached here with our hard work and dedication
           </p>
         </div>
-        <div className="w-1/2 flex gap-7 py-16">
+        <div className="w-full md:w-1/2 flex flex-wrap md:flex-nowrap gap-7 py-16">
           <div>
             <div className="flex gap-4">
               <Image

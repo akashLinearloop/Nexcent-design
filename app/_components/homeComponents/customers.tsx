@@ -5,8 +5,8 @@ import RightArrowComponent from "../theme/icons/rightArrowComponent";
 const Customers = () => {
   return (
     <div className="bg-natural-Silver my-12 py-8">
-      <div className="container flex items-center">
-        <div className="w-1/3">
+      <div className="container flex flex-wrap items-center">
+        <div className="w-full md:w-6/12 lg:w-1/3">
           <Image
             src="/images/image 9.png"
             width={326}
@@ -14,7 +14,7 @@ const Customers = () => {
             alt="customer"
           />
         </div>
-        <div className="w-8/12">
+        <div className="w-full md:w-6/12 lg:w-8/12">
           <p className="text-base font-medium text-natural-grey">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
@@ -31,8 +31,8 @@ const Customers = () => {
           <p className="text-base text-natural-L_Grey mt-2">
             British Dragon Boat Racing Association
           </p>
-          <div className="mt-8 flex gap-8">
-            <div className="flex gap-10">
+          <div className="mt-8 flex flex-wrap gap-8">
+            <div className="flex gap-6 xl:gap-10">
               <Image
                 src="/images/our-clients-images/Logo (1).svg"
                 width={48}
@@ -68,6 +68,7 @@ const Customers = () => {
                 width={48}
                 height={48}
                 alt="customer-logo"
+                className="hidden lg:block"
               />
             </div>
             <div className="flex items-center gap-3">

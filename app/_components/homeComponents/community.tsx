@@ -13,7 +13,7 @@ const Community = () => {
             Who is Nextcent suitable for?
           </p>
         </div>
-        <div className="flex gap-28 justify-between mt-5">
+        <div className="flex flex-wrap lg:flex-nowrap gap-16 xl:gap-28 justify-between mt-5">
           <div className="flex flex-col justify-center items-center shadow-shadow1 py-6 px-8">
             <Image
               src="images/community-images/Icon (3).svg"

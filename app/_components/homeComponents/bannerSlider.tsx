@@ -18,7 +18,7 @@ const BannerSlider = () => {
                 <>
                   <CarouselItem className="pl-0">
                     <div className="bg-natural-Silver pl-4 md:pl-0">
-                      <div className="container flex items-center justify-between py-5 md:py-20 px-4 md:px-16">
+                      <div className="container flex flex-wrap md:flex-nowrap items-center justify-between py-5 xl:py-20 px-4 md:px-10 xl:px-16">
                         <div>
                           <h2 className="text-[64px] font-semibold leading-[76px] text-natural-grey">
                             Lessons and insights
